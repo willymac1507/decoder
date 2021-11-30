@@ -9,7 +9,8 @@ def decode(numbers)
     # Get the letter that corresponds to this number.
     letter = KEY[number]
     # Add it onto the string.
-    text += letter
+    If letter != nil
+      text += letter
   end
   # Return the decoded string.
   return text
